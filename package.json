@@ -2,12 +2,12 @@
   "name": "GiveawayBot",
   "version": "3.0.0",
   "description": "Giveaway bot created with discord-giveaways package in discord.js",
-  "main": "index.js",
+  "main": "panda.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node panda.js"
   },
-  "author": "Zero",
-  "license": "CC-Zero",
+  "author": "Panda",
+  "license": "CC-Panda",
   "keywords": [
     "discord",
     "giveaways",
