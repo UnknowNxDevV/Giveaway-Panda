@@ -20,7 +20,7 @@ client.giveawaysManager = new GiveawaysManager(client, {
     }
   }
 });
-//Coded by ZeroSync on yt
+//Coded by Panda on yt
 
 /* Load all events (discord based) */
 
@@ -84,5 +84,5 @@ fs.readdir("./slash/", (_err, files) => {
 });
 
 
-// Login through the client
+// Coded By PANDAxDevV
 client.login(config.token);
