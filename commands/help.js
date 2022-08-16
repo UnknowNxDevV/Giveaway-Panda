@@ -7,13 +7,12 @@ const embed = new MessageEmbed()
 .setTitle(`Commands of ${client.user.username}`)
 .setColor('#2F3136')
 .setDescription('**Please Select a category to view all its commands**')
-.addField(`Links:`,`- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`,true)
+.addField(`Links:`,`- [Youtube Channel](https://youtube.com/channel/UCMH23RPcKlc7qURUfxkTpSg)\n- [Discord Server](https://discord.gg/VtC95KzGSs)\n- [GitHub](https://github.com/PANDAxDevV/Giveaway)`,true)
 .setTimestamp()
 .setFooter({
-  text: `Requested by ${message.author.username} | GiveawayBot™ v3 By `, 
+  text: `Requested by ${message.author.username} | GiveawayBot™ v3 By Panda`, 
   iconURL: message.author.displayAvatarURL()
 });
-
   const giveaway = new MessageEmbed()
   .setTitle("Categories » Giveaway")
   .setColor('#2F3136')
@@ -29,7 +28,7 @@ const embed = new MessageEmbed()
   )
   .setTimestamp()
   .setFooter({
-    text: `Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, 
+    text: `Requested by ${message.author.username} | GiveawayBot™ v3 By Panda`, 
     iconURL: message.author.displayAvatarURL()
   });
 
@@ -44,7 +43,7 @@ const embed = new MessageEmbed()
   )
   .setTimestamp()
   .setFooter({
-    text: `Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, 
+    text: `Requested by ${message.author.username} | GiveawayBot™ v3 By Panda`, 
     iconURL: message.author.displayAvatarURL()
   });
   
