@@ -10,7 +10,7 @@ const embed = new MessageEmbed()
 .addField(`Links:`,`- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`,true)
 .setTimestamp()
 .setFooter({
-  text: `Requested by ${message.author.username} | GiveawayBot™ v3 By ZeroSync`, 
+  text: `Requested by ${message.author.username} | GiveawayBot™ v3 By `, 
   iconURL: message.author.displayAvatarURL()
 });
 
